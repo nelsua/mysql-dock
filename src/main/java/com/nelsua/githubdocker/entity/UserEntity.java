@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-@Table
+@Table(name = "users", schema = "test")
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
